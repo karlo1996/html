@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "YuseiMagic";
+    src:url("fonts/Yusei_Magic/YuseiMagic-Regular.ttf")
+}
+
+@font-face{
+    font-family: "PottaOne";
+    src:url("fonts/Potta_One/PottaOne-Regular.ttf")
+}
+
+body {
+    background-image: url("images/background3.jpg");
+    background-repeat: repeat;
+    font-family: "YuseiMagic";
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PottaOne";
+    color: black;
+}
+
+h6 {
+    font-style: italic;
+    color: rgb(59, 55, 55);
+}
+
+#novosti a {
+    color: rgb(28, 76, 105);
+}
+
+#sidebar {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#linkovi a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}

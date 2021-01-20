@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-sports u Hrvatskoj</title>
+	<meta charset="UTF-8"/>
+	<link rel="icon" href="../images/logo2.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="kontakt.css"/>
+</head>
+<body>
+	<nav>
+		<img src="../images/logo3.png" alt="logo"/>
+		<ul>	
+			<li><a href="../seminar.html">Naslovnica</a></li>
+			<li><a href="../novosti.html">Novosti</a></li>
+			<li><a href="../O_nama.html">O nama</a></li>
+			<li><a href="../kontakt/kontakt.html">Kontakt</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<div class="sadrzaj" id="sav-sadrzaj">
+		<h1>Kontaktirajte nas:</h1>
+		<form>
+			<label for="ime">Ime: </label><input name="ime" type="text"/><br>
+			<label for="prezime">Prezime: </label><input name="prezime" type="text"/><br>
+			
+			<p>Spol:</p>
+			<input type="radio" name="spol" value="musko"/><label>Muško</label><br>
+			<input type="radio" name="spol" value="zensko"/><label>Žensko</label><br>
+			
+			<p>Razlog upita:</p>
+			<select>
+				<option value="1">Organizacija turnira</option>
+				<option value="2">Poslovna suradnja</option>
+				<option value="3">Problem sa sadržajem stranice</option>
+				<option value="4" selected>Drugo</option>
+			</select>
+			<br><br><br>
+			
+			<label for="komentar">Komentar: </label><textarea name="komentar"></textarea><br>
+			<br><br>
+			<input type="submit" value="Pošalji"/>
+			<input type="reset" value="Poništi"/>
+		</form>
+		<div class="map">
+			<p>Posjetite nas na lokaciji:</p>
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7972887291776!2d15.967324915798434!3d45.79528871931037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sTehni%C4%8Dko%20veleu%C4%8Dili%C5%A1te%20u%20Zagrebu!5e0!3m2!1shr!2shr!4v1611013076043!5m2!1shr!2shr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+		<br><br>
+		<a href="mailto:karlo.kormanic@tvz.hr">Kontaktirajte nas putem maila</a>
+	</div>
+	<hr>
+	<footer>
+		<p>Karlo Kormanić</p>
+		<p>0016113014</p>
+	</footer>
+</body>
+</html>

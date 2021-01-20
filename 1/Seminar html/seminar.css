@@ -1,0 +1,181 @@
+@font-face{
+    font-family: "YuseiMagic";
+    src:url("fonts/Yusei_Magic/YuseiMagic-Regular.ttf")
+}
+
+@font-face{
+    font-family: "PottaOne";
+    src:url("fonts/Potta_One/PottaOne-Regular.ttf")
+}
+
+@media (min-width: 800px) {
+	body {
+		background-image: url("images/background3.jpg");
+		background-repeat: repeat;
+		font-family: "YuseiMagic";
+		font-size: 16px;
+		max-width: 1100px;
+		width: 90%;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "PottaOne";
+	}
+	
+	div.sadrzaj {
+		text-align: left;
+		letter-spacing: 0.7px;
+		word-spacing: 2px;
+	}
+
+	a:link {
+		text-decoration: none;
+		color: white;
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	#idi-na a:link {text-decoration: underline;}
+	#tablica a:link {text-decoration: underline;}
+
+	#idi-na {
+		font-weight: bold;
+	}
+
+	hr {
+		border: solid 2px;
+		color: black;
+		width: 100%;
+	}
+
+	div.tablica {
+		text-align: center;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li {
+		float: left;
+		width: 20%;
+		font-size: 25px;
+		padding-left: 5%;
+		text-align: center;
+	}
+
+	ul i {
+		color: rgb(61, 32, 32);
+		padding-right: 5px;
+	}
+
+	div.definicija img {
+		width: 40%;
+		float: right;
+	}
+
+	div.povijest img {
+		width: 25%;
+		float: left;
+		padding-right: 5px;
+	}
+
+	div.hrvatska img {
+		width: 50%;
+	}
+}
+
+@media (max-width: 799px) {
+	body {
+		background-image: url("images/background3.jpg");
+		background-repeat: repeat;
+		font-family: "YuseiMagic";
+		font-size: 16px;
+		max-width: 750px;
+		width: 90%;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "PottaOne";
+	}
+
+	nav img {
+		width: 50%;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+	
+	div.sadrzaj {
+		text-align: left;
+		letter-spacing: 0.7px;
+		word-spacing: 1px;
+	}
+
+	a:link {
+		text-decoration: none;
+		color: white;
+		display: block;
+	}
+
+	a:visited {
+		color: black;
+		display: block;
+	}
+
+	#idi-na a:link {text-decoration: underline;}
+	#tablica a:link {text-decoration: underline;}
+
+	#idi-na {
+		font-weight: bold;
+		font-size: 25px;
+	}
+		
+	nav.poveznica {
+		word-spacing: 2px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	hr {
+		border: solid 2px;
+		color: black;
+		width: 100%;
+	}
+
+	div.tablica {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	nav li {
+		clear: both;
+		width: 100%;
+		display: block;
+		margin-bottom: 2px;
+		font-size: 35px;
+		text-align: center;
+	}
+
+	ul i {
+		color: rgb(61, 32, 32);
+		padding-right: 5px;
+	}
+
+	div.sadrzaj img {
+		width: 100%;
+	}
+}
